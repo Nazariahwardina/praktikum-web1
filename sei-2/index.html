@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        color: rgb(242, 114, 225);
+        border: 2px solid red;
+      }
+      h1 {
+        color: black;
+      }
+      .teks-merah,
+      #teks-kuning {
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+        color: rgb(247, 19, 19);
+      }
+
+      .teks-merah {
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+        color: rgb(247, 19, 19);
+      }
+      #teks-kuning {
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+        color: blue;
+      }
+      div p {
+        color: red;
+      }
+      div > div > p {
+        font-weight: bold;
+      }
+      .subbagian {
+        font-size: 30px;
+      }
+      .subbagian.header {
+        color: blueviolet;
+      }
+      .subbagian#teks {
+        color: brown;
+      }
+      div > div > p {
+        font-size: bold;
+      }
+      .subbagian {
+        font-size: bold;
+      }
+
+      p:hover{
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>pemograman web 1</h1>
+    <p class="teks-merah">
+      praktik pemograman web 1 akan membahas tentang penggunaa CSS
+    </p>
+    <p id="teks-kuning">
+      CSS atau Cascading style sheets adalah sebuah bahasa yang digunakan untuk
+      mengatur tampilan suatu halaman web
+    </p>
+
+    <div>
+      <p>ini adalah paragraf pertama.</p>
+      <div>
+        <p>ini adalah paragraf kedua.</p>
+      </div>
+
+      <div> 
+        <div class="subbagian header">bagian header</div>
+        <p class="subbagian" id="teks">ini adalah paragraf</p>  
+      </div>   
+  </body>
+</html>
